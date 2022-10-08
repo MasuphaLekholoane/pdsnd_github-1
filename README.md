@@ -13,4 +13,10 @@ My project is about knowing how do a project using Github
 readme.md file and .gitignore files are the ones I used
 
 ### Credits
-my special thanks to Ahmed,the course tutor 
+my special thanks to Ahmed,the course tutor
+
+### what is your hobby?
+playing football
+
+### where do you stay?
+I stay at Maseru
