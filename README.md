@@ -15,8 +15,8 @@ readme.md file and .gitignore files are the ones I used
 ### Credits
 my special thanks to Ahmed,the course tutor
 
-### what is your hobby?
+### who is your footballer?
 playing football
 
-### what is your favourite meal?
-burger
+### what is your favourite car?
+Toyota Landcruiser
