@@ -44,7 +44,7 @@ def get_filters():
         if day in days:
                 break
         else:
-                print('please enter the correct day:')
+                print('enter the required day:')
 
 
 
@@ -113,7 +113,7 @@ def time_stats(df):
 
     # TO DO: display the most common start hour
     most_common_hour = df['hour'].mode()[0]
-    print(' frequent Start Hour',most_common_hour)
+    print(' most common Start Hour',most_common_hour)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -196,7 +196,7 @@ def user_stats(df,city):
         most_recent_year = df['Birth Year'].max()
         print('Most Recent Year is: ',most_recent_year)
     except KeyError:
-        print('Frequent recent year:no data available for this month')
+        print('common recent year:no data available for this month')
 
     try:
         most_common_year = df['Birth Year'].mode()[0]
