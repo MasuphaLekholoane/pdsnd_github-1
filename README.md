@@ -18,5 +18,5 @@ my special thanks to Ahmed,the course tutor
 ### what is your hobby?
 playing football
 
-### where do you stay?
-I stay at Maseru
+### what is your favourite meal?
+burger
