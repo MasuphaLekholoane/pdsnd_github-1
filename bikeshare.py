@@ -40,7 +40,7 @@ def get_filters():
     days = ['Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday', 'Sunday','all']
 
     while True:
-        day = input ('mention any day you need:(Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,all):')
+        day = input ('which day do you need:(Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,all):')
         if day in days:
                 break
         else:
@@ -194,7 +194,7 @@ def user_stats(df,city):
 
     try:
         most_recent_year = df['Birth Year'].max()
-        print('Most Recent Year is: ',most_recent_year)
+        print('Most common Recent Year is: ',most_recent_year)
     except KeyError:
         print('common recent year:no data available for this month')
 
